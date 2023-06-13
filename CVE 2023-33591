@@ -1,0 +1,11 @@
+Exploit Title:User Registration & Login and User Management System v1.0  - cross-site scripting (XSS) vulnerability
+the component -  /admin/search-result.php.
+Vendor of Product - https://phpgurukul.com/
+Software Link: https://phpgurukul.com/user-registration-login-and-user-management-system-with-admin-panel/
+Tested on: Linux
+
+
+Attack Type - Local
+
+Attack Vectors- searchkey
+
